@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string ReadData()
+{
+    Console.WriteLine("Введите элементы массива");
+    return Console.ReadLine()??"";
+}
+
+string inputString=ReadData();
+Console.WriteLine(inputString);
